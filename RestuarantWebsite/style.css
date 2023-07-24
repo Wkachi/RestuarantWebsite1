@@ -1,0 +1,987 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.section1 {
+     /* background: black  url(https://www.ftswebdesign.com/wp-content/uploads/2017/05/5D3_4637.jpg);   */
+    height: 700px;
+    width:100%;
+    /* filter: brightness(0.5);    */
+     
+    
+    
+}
+
+.section1-img {
+    filter: brightness(0.2);
+    
+
+}
+
+/* .section1 img {
+    position: absolute;
+    top:0;
+    left:0;
+    height:700px;
+    width:100%;
+     filter: brightness(0.5);    
+     
+}  */
+
+
+ .nav {
+    /* background-color: aqua; */
+    border-bottom: 1px solid #585656;
+    color: #fff; 
+    display:flex;
+    padding-top: 20px;
+    height:80px;
+    width:100%;
+    /* z-index: 1100; */
+    position:absolute;
+    top:0.1px;
+    transition: ease-in-out, 1s;
+
+    
+} 
+
+.bgchange {
+    background-color: #fff;
+    color:#232323; 
+    height:80px;
+    width:100%;
+     z-index: 1100; 
+    position:relative; 
+    position: fixed;
+    transition:all, 1s;
+    
+} 
+
+.chbglogo {
+    background-color: #151414;
+    border-radius: 8px;
+   margin-left: 25px;
+    height: 40px;
+    width: 150px;
+}
+
+
+.nav-list {
+display:flex;
+
+
+    
+}
+
+.nav-list1 {
+   
+   display: flex;
+   font-size: 15px;
+   font-weight: 700;
+    margin-top: 10px;  
+   margin-left: 200px; 
+   gap: 50px;
+}
+
+.nav-list2 {
+    
+   display: flex;
+   font-size: 15px;
+   font-weight: 700;
+    margin-top: 10px;  
+   margin-left: 50px; 
+   gap: 50px;
+   
+}
+.home-list {
+    color:#EB3007
+}
+.chef-list {
+    display: flex;
+    
+}
+
+.chef {
+    position:relative;
+    left:5px;
+}
+
+.nav-list {
+    cursor: pointer;
+}
+
+
+
+.logo img{
+    
+   margin-left: 25px;
+    height: 40px;
+    width: 150px;
+}
+
+.btn-div {
+    background-color: #EB3007;
+    border-radius: 120px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top:16px;  
+    margin-left: 30px;
+    text-align: center;
+    height: 50px;
+    width:170px;
+    position: relative;
+    bottom:5px;
+    /* margin-bottom: 10px; */
+}
+
+.btn-divA {
+    background-color: transparent;
+    border:2px solid #EB3007;
+    border-radius: 120px;
+    color: #EB3007;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top:16px;  
+    margin-left: 30px;
+    text-align: center;
+    height: 50px;
+    width:170px;
+    position: relative;
+    bottom:5px;
+    /* margin-bottom: 10px; */
+}
+
+.btn-div:hover {
+    cursor: pointer;
+}
+
+
+
+.line {
+    
+    padding-top: 10px;
+    padding-left:20px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 800px;
+    left: 450px;
+}
+
+.page1-div {
+    animation-name: moveUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes moveUp {
+    from {
+        transform:translateY(100%)}
+
+    to {
+        transform:translateY(0%)}
+}
+
+.page1 {
+    display: flex;
+    margin-left: 30px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+   
+}
+
+.food h6{
+    color: #EB3007;
+    font-family: pacifico,cursive;
+    font-size: 20px;
+    padding-top: 5px;
+    /* margin-left: 20px; */
+    position: relative;
+    bottom: 800px;
+    left: 450px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+
+.page1-div h1 {
+    color: #fff;
+    font-size: 85px;
+    font-family: Montserrat,sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 300px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.page1-div p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 350px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.btn-div2 {
+        background-color: #EB3007;
+        border-radius: 120px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 30px;
+        padding:16px 15px 15px 35px;
+        height: 50px;
+        width:170px;
+        position:relative;
+        bottom: 800px;
+        left: 550px;
+        /* margin-left: 10px; */
+        animation-name: moveUp1;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        
+}
+
+.btn-div2a {
+    border:2px solid  #EB3007;
+    border-radius: 120px;
+    color:  #EB3007;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    padding:16px 15px 15px 35px;
+    height: 50px;
+    width:170px;
+    position:relative;
+    bottom: 800px;
+    left: 550px;
+    /* margin-left: 10px; */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+
+.btn-div4a {
+    border:1px solid  #EB3007;
+    border-radius: 120px;
+    color:  #EB3007;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    padding:16px 15px 15px 35px;
+    height: 50px;
+    width:170px;
+    position:relative;
+    bottom: 800px;
+    left: 550px;
+    /* margin-left: 10px; */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+.btn-div2:hover {
+    cursor: pointer;
+}
+
+.n {
+    display: flex;
+    position: relative;
+    gap:10px;
+    left: 600px;
+    bottom: 100px;
+
+}
+
+.n1,.n2,.n3 {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    border-radius: 50%;
+    height: 15px;
+    width:15px;
+}
+
+
+
+.btn-div3 {
+    background-color: #EB3007;
+    border-radius: 120px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top:17px;  
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    width:180px;
+     position: relative;
+      /* bottom: 100px; */
+    left: 145px;   
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+.btn-div3a {
+    background-color: transparent;
+    border:2px solid  #EB3007;
+    border-radius: 120px;
+    color:  #EB3007;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    padding:16px 15px 15px 35px;
+    height: 50px;
+    width:170px;
+    position:relative;
+    bottom: 800px;
+    left: 550px;
+    /* margin-left: 10px; */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.btn-div3:hover {
+    cursor: pointer;
+}
+
+
+.line2 {
+    
+    padding-top: 10px;
+    padding-left:20px;
+    margin-left: 70px;
+    position: relative;
+    /* bottom: 800px;
+    left: 450px; */
+    
+}
+
+.page2 {
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+   
+}
+
+.food1 h6{
+    color: #EB3007;
+    font-family: pacifico,cursive;
+    font-size: 20px;
+    padding-top: 5px;
+    /* margin-left: 20px; */
+    position: relative;
+     /* bottom: 800px; */
+    /* left: 50px;  */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.page2-div h1 {
+    color: #fff;
+    font-size: 85px;
+    font-family: Montserrat,sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    /* bottom: 800px;
+    left: 300px; */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.page2-div p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    /* bottom: 800px;
+    left: 350px; */
+    left: 50px; 
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.btn-div4 {
+        background-color: #EB3007;
+        border-radius: 120px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+        padding-top:17px;  
+        margin-left: 100px;
+        margin-top: 30px;
+        text-align: center;
+        height: 50px;
+        width:180px;
+         position: relative;
+         /* bottom: 800px; */
+        left: 145px;  
+        animation-name: moveUp1;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        
+}
+
+.btn-div4:hover {
+    cursor: pointer;
+}
+
+
+.line3 {
+    
+    padding-top: 10px;
+    padding-left:20px;
+    margin-left: 70px;
+    position: relative;
+    /* bottom: 800px;
+    left: 450px; */
+ 
+}
+
+.page3 {
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 10px;
+     animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out; 
+   
+}
+
+
+.food2 h6{
+    color: #EB3007;
+    font-family: pacifico,cursive;
+    font-size: 20px;
+    padding-top: 5px;
+    /* margin-left: 0px;  */
+    position: relative;
+     /* bottom: 800px; */
+    /* left: 50px;  */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.page3-div h1 {
+    color: #fff;
+    font-size: 85px;
+    font-family: Montserrat,sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+     /* bottom: 800px; */
+    /* left: 300px;  */
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.page3-div p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+     /* bottom: 800px; */
+    left: 50px; 
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+   
+}
+
+.page2-div {
+    display:none;
+    position:relative;
+    left: 290px;
+    bottom: 510px;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    
+
+}
+
+
+
+
+@keyframes moveUp1 {
+    from {
+        transform:translateY(100%)}
+
+    to {
+        transform:translateY(0%)}
+}
+
+
+
+.page3-div {
+    display:none;
+    animation-name: moveUp1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 1s; */
+    position:relative;
+    left: 290px;
+    bottom: 510px;
+
+}
+
+ .section2-div {
+    /* background-color: #dbdbdb; */
+    background-color: #eef0f3;
+    height:600px;
+    width:100%;
+    position:relative;
+    /* top:50px; */
+    z-index: 1; 
+ }
+
+.section2 {
+    
+    display:flex;
+    /* margin-top:200px; */
+}
+
+.section2-img-div {
+    border:2.5px solid #EB3007;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 450px;
+    width:450px;
+}
+
+.section2-img-div img {
+    margin-top:50px;
+    margin-left: 50px;
+    height:450px;
+    width:450px;
+}
+
+
+
+.playBtn {
+    
+    background-color:#EB3007; 
+    /* padding:12px 10px;  */
+    border: 3px solid #fff;
+     border-radius: 50%; 
+    position: absolute;
+    bottom: 250px;
+    left:295px;
+     height:80px;
+    width:80px; 
+} 
+
+.playBtn img {
+     /* background-color: aqua;   */
+    height:40px;
+    width:40px; 
+    margin-bottom: 60px;
+    position:relative;
+    bottom: 33px; 
+     right:30px;  
+    /* padding: 10px 20px; */
+
+   
+}
+
+.unique-div {
+    margin-top:20px;
+    margin-left:200px;
+}
+
+.unique {
+  
+    display:flex;
+    margin-top: 10px;
+}
+
+
+.unique p {
+    border-bottom: 3px solid #EB3007;
+    margin-bottom:10px; 
+    width:25px;
+    
+}
+
+.unique h6 {
+    color: #EB3007;
+    font-size: 25px;
+    font-family: pacifico,cursive;
+    margin-left:10px;
+    /* margin-top: 10px; */
+}
+
+.about {
+    
+    font-size: 25px;
+    font-family: Montserrat,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.restuarant {
+    color:#6B6B6B;
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    /* margin-bottom: 30px; */
+    /* text-align:left; */
+    padding-right: 30px;
+    word-spacing: 1px;
+    line-height: 26px;
+}
+
+.btn-bookNow {
+    background-color: transparent;
+    border:2px solid  #EB3007;
+    border-radius: 120px;
+    color:  #EB3007;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    padding:16px 15px 15px 35px;
+    height: 50px;
+    width:170px;
+    position:relative;
+    /* bottom: 800px;
+    left: 550px; */
+    
+    
+}
+
+.btn-bookNow2 {
+    background-color: #EB3007;
+    /* border:2px solid  #EB3007; */
+    border-radius: 120px;
+    color:  #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    padding:16px 15px 15px 35px;
+    height: 50px;
+    width:170px;
+    position:relative;
+    /* bottom: 800px;
+    left: 550px; */
+    
+    
+}
+
+.ourMenu {
+    justify-content: center;
+    display: flex;
+}
+
+.special,.breakfast,.lunch,.dinner,.snacks {
+    background-color: #fff;
+    border:1px solid  #bebcbc ;
+    color: #6B6B6B;
+    /* font-family: Montserrat,sans-serif; */
+    gap:10px;
+    text-align:center ;
+    align-items: center;
+    height: 80px;
+    width:150px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.special h3 {
+    margin-top: 20px;
+    margin-bottom:2px ;
+}
+
+.special p {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+.breakfast h3 {
+    margin-top: 20px;
+    margin-bottom:2px ;
+}
+
+.breakfast p {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.lunch h3 {
+    margin-top: 20px;
+    margin-bottom:2px ;
+}
+
+.lunch p {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.dinner h3 {
+    margin-top: 20px;
+    margin-bottom:2px ;
+}
+
+.dinner p {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.snacks h3 {
+    margin-top: 20px;
+    margin-bottom:2px ;
+}
+
+.snacks p {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+
+.discover {
+  
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+}
+
+.discover p {
+    
+    border-bottom: 2.5px solid #EB3007;
+     margin-bottom:10px;  
+    width:25px;
+}
+/* .discover h2 {
+    border-bottom: 3px solid #EB3007;
+    margin-top:10px;  
+    width:25px;
+    
+} */
+
+.discover h6 {
+    color: #EB3007;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: pacifico,cursive;
+    margin-left:10px;
+    /* margin-top: 10px; */
+}
+
+.ourM {
+    
+    font-size: 18px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.section3-div {
+    background-color: #eef0f3 ;
+    height:1200px;
+    width:100%;
+    position: relative;
+    bottom:10px;
+}
+
+.ourMenu {
+    border-bottom: 1px solid  #eef0f3 ;
+}
+.ourMenu2 {
+    color:#6B6B6B
+}
+
+.ourMenu2a,.ourMenu2b,.ourMenu2c {
+    display: flex;
+    gap:30px;
+}
+
+.ingredient {
+    
+    display:flex;
+}
+
+.ing p {
+    border-right: 2px solid #bebcbc ; 
+    color: #EB3007;
+    font-size:12px;
+    font-weight: 700;
+    margin-right: 10px;
+    padding-right: 10px; 
+    height:20px;
+  
+}
+
+.mixed {
+    font-size: 12px;
+}
+.gardenSalad {
+
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    margin-left: 50px;
+   
+}
+
+.gardenSalad h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.gardenSalad p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.realMarshed {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    
+}
+
+.realMarshed h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.realMarshed p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+
+.turkeyPot {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+   
+}
+.turkeyPot h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.turkeyPot p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+
+
+.californiaB {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    margin-top: 20px;
+    
+   
+}
+.californiaB h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.californiaB p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.vegetarianS {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+   
+}
+.vegetarianS h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.vegetarianS p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+
+.searedS {
+    background-color: #fff;
+    /* border:1px solid #000; */
+    height:200px;
+    width:600px;
+    margin-top: 20px;
+    
+   
+}
+.searedS  h4 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.searedS  p {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+
